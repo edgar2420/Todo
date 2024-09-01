@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.itemList:hover{
+    background-color: #fdbd1f;
+    cursor: pointer;
+    color: white;
+    transition: all 0.35s ease;
+}
+.navbar > *{
+    color: #9e8e92;
+    padding: 0px 20px;
+}
+.navbar{
+    display: flex;
+    border-top: #fdbd1f 5px solid;
+    justify-content: space-between;
+    align-items: center;  
+}
+.parteIzquierdaNavbar{
+    display: flex;
+    align-items: center;
+}
+.parteIzquierdaNavbar img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.parteDerechaNavbar{
+    display: flex;
+    align-items: center;
+}
+.hijoparteIzquierdaNavbar{
+    display: flex;
+    flex-direction: column;
+}
+.hijoparteIzquierdaNavbar p{
+   margin: 0;
+}
+.unorderedListNavbar{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.unorderedListNavbar li{
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding:0px 5px;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .parteIzquierdaNavbar,
+    .parteDerechaNavbar {
+        margin-bottom: 10px;
+    }
+
+    .unorderedListNavbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .unorderedListNavbar li {
+        height: auto;
+        padding: 10px;
+    }
+
+    .parteIzquierdaNavbar img {
+        margin-right: 0;
+    }
+}

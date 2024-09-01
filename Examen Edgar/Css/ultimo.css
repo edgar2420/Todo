@@ -1,0 +1,56 @@
+.containerUltimo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 120px;
+}
+.tituloUltimo strong{
+    color: #ab6f80;
+}
+.tituloUltimo >  p{
+    color: #fdbd1f;
+}
+.containerUltimo > p{
+    color: #9e8e92;
+}
+footer{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #9e8e92;
+    text-align: center;
+    font-size: 12px;
+}
+footer span{
+    color: #ab6f80;
+}
+.botonesLaptop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.botonesLaptop button{
+    border-radius: 9999px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .containerUltimo {
+        padding: 40px 20px;
+    }
+  
+    .botonesLaptop {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .botonesLaptop button {
+        width: 80px;
+    }
+}

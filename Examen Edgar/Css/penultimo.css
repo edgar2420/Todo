@@ -1,0 +1,55 @@
+.containerPenultimo{
+    background-color: #ab6f80;
+    height: 300px;
+    display: flex;
+    color: white;
+    gap: 50px;
+    padding: 60px;
+    
+}
+.containerPenultimo button{
+    background-color: white;
+    color: #ab6f80;
+}
+.imagenContainerPenultimo{
+    max-width: 300px;
+}
+.textAmarillo{
+    color: #fdbd1f;
+}
+.containerPenultimo div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+}
+.pseudoContainer p{
+    margin: 0px;
+}
+.pseudoContainer {
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    .containerPenultimo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        gap: 20px;
+    }
+
+    .containerPenultimo button {
+        margin-top: 20px;
+    }
+
+    .imagenContainerPenultimo {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .pseudoContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

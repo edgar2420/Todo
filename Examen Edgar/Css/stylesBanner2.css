@@ -1,0 +1,40 @@
+.containerDosIconos{
+    display: flex;
+    flex: 1;
+}
+.containerDer{
+    border-left: 1px solid #ab6f80;
+}
+.containerChild{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.containerChild button{
+    color: white;
+    background-color: #fdbd1f;
+    width: 80px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.containerChild strong{
+    color: #ab6f80;
+}
+.middleP{
+    color: #fdbd1f;
+}
+.lastP{
+    color: #9e8e92;
+}
+@media (max-width: 768px) {
+    .containerChild {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .containerChild button {
+        margin-top: 5px;
+        width: 100%;
+    }
+}
