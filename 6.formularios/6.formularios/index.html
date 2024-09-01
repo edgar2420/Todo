@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de datos</title>
+    </head>
+    <body>
+        <form action="resultado.html">
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre<br>
+                <input type="text" name="nombre" disabled value="Juan Perez"><br><br>
+                Estado Civil:<br>
+                <input name="estado_civil"
+                    type="radio"
+                    id="opcion_casado"
+                    value="casado">
+                <label for="opcion_casado">Casado</label> <br>
+                <label>
+                    <input name="estado_civil"
+                    type="radio"
+                    value="soltero">
+                    Soltero 
+                </label><br>
+                <input name="estado_civil"
+                    type="radio"
+                    value="divorciado">
+                Divorciado
+            </fieldset>
+            <br>
+            <br>
+            Seleccione su foto:
+            <br>
+            <input type="file" name="foto">
+            <br><br>
+            Ingrese una descripcion<br>
+            <textarea name="descripcion">
+ dfsdf
+dfsdf
+dsfsd
+fsdf
+sdfsfsd
+dfs
+            </textarea>
+            <br><br>
+            Seleccione su ciudad:<br>
+            <select name="ciudad">
+                <option value="SC">
+                    Santa Cruz
+                </option>
+                <option value="LP">
+                    La Paz
+                </option>
+                <option value="CB">
+                    Cochabamba
+                </option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar datos">
+            <input type="button" value="No hace nada">
+            <button>Otro enviar</button>
+            <input type="reset" value="Reestablecer datos">
+            
+            
+            
+            </form>
+    </body>
+</html>
