@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios-xd</title>
+</head>
+<body>
+    <h1>Formularios de Datos</h1>
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre
+            <br>
+            <input type="text">
+            <br>
+            Apellido
+            <br>
+            <input type="text">
+            <br>
+            DNI
+            <br>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de Conexion</legend>
+            Nombre de usuario
+            <br>
+            <input type="text">
+            <br>
+            Contraseña
+            <br>
+            <input type="password">
+            <br>
+            Repite la Contraseña
+            <br>
+            <input type="password">
+        </fieldset>
+    </form>
+    <br>
+    <form action="Guardado.html">    
+        <h2>Rellena tu CV</h2>
+        Nombres
+        <br>
+        <input type="text">
+        <br>
+        Apellidos
+        <br>
+        <input type="text">
+        <br>
+        Contraseña
+        <br>
+        <input type="password">
+        <br>
+        DNI
+        <br>
+        <input type="text">
+        <br>
+        Sexo
+        <br>
+        <input type="radio" value="Hombre" name="sexo" checked>
+        Hombre
+        <br>
+        <input type="radio" value="Mujer" name="sexo">
+        Mujer
+        <br><br>
+        Incluir mi foto
+        <input type="text">
+        <input type="file"> 
+        <br>
+        <input type="checkbox" name="suscribirme" value="suscribirme"checked>
+        Suscribirme al boletin de novedades
+        <br><br>
+        <input type="submit" value="Guardar Cambios" name="btn_guardar" >
+        <input type="reset" value="Borrar los datos introducidos" name="btn_borrar">    
+    </form>
+    <br>
+    <form action="Guardado.html">
+        <h2>Introduce tus datos personales</h2>
+        Nombre: <input type="text"><br><br>
+        Apellidos: <input type="text"><br><br>
+        Login: <input type="text"><br><br>
+        Password: <input type="password"><br><br>
+        Repite tu Password: <input type="password"><br><br>
+        Sexo: <input type="radio" value="Hombre" name="sexo">Hombre <input type="radio" value="Mujer" name="sexo">Mujer
+        <br><br>    
+        Edad: <input type="radio" value="0-15" name="Edad">0-15 <input type="radio" value="16-30" name="Edad">16-30 <input type="radio" value="31-50" name="Edad">31-50 <input type="radio" value="50-mas" name="Edad">50-Mas
+        <br><br>
+        Estado: <select name="Estado">
+            <option value="SC">Santa Cruz</option>
+            <option value="LP">La Paz</option>
+            <option value="CB">Cochabamba</option>
+            <option value="OR">Oruro</option>
+            <option value="PT">Potosi</option>
+        </select>
+        <br><br>
+        Navegadores que utilizas:   
+        Firefox <input type="checkbox">
+        Opera <input type="checkbox">
+        Safari <input type="checkbox">
+        Google Chrome <input type="checkbox">
+        Internet Explorer <input type="checkbox">
+        <br><br>
+        Comentarios y sugerencias: <textarea name="Comentarios_sugerencia"  cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="borrar"> 
+    </form>
+    <p>Edgar</p>
+</body>
+</html>
