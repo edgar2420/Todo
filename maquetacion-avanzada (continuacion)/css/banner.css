@@ -1,0 +1,47 @@
+.banner{
+    margin-top: 50px;
+    position: relative;
+}
+
+.banner__title__container{
+    background-color: #404040;
+    display: inline-block;
+    padding: 14px 18px 12px;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+}
+.banner__title{
+    margin: 0px;
+    color: white;
+    font-family: Bebas, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+
+.banner__title__subtitle{
+    color: #9a9a9a;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.banner__description{
+    background-image: url('img/bg-banner-description.png');
+    padding: 20px 15px;
+    margin-top: -4px;
+}
+
+.banner__description__title{
+    margin-top: 0px;
+    font-family: Bebas, sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner__description__title ~ p{
+    font-family: 'HelveticaNeue', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0px;
+}

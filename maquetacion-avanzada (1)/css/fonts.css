@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('fonts/Bebas-Regular.eot');
+    src: local('Bebas Regular'), local('Bebas-Regular'), local('Bebas'),
+        url('fonts/Bebas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Bebas-Regular.woff2') format('woff2'),
+        url('fonts/Bebas-Regular.woff') format('woff'),
+        url('fonts/Bebas-Regular.ttf') format('truetype'),
+        url('fonts/Bebas-Regular.svg#Bebas-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico-Regular.eot');
+    src: local('Pacifico Regular'), local('Pacifico-Regular'),
+        url('fonts/Pacifico-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Pacifico-Regular.woff2') format('woff2'),
+        url('fonts/Pacifico-Regular.woff') format('woff'),
+        url('fonts/Pacifico-Regular.ttf') format('truetype'),
+        url('fonts/Pacifico-Regular.svg#Pacifico-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('fonts/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'),
+           url('fonts/HelveticaNeue-Medium.woff') format('woff'),
+           url('fonts/HelveticaNeue-Medium.ttf')  format('truetype'),
+           url('fonts/HelveticaNeue-Medium.svg#HelveticaNeue-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

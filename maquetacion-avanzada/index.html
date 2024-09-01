@@ -1,121 +1,71 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Practico</title>
-
+        <title>Document</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/all.min.css">
-
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/banner.css">
-        <link rel="stylesheet" href="css/features.css">
     </head>
     <body>
-        <main class="container">
+        <main class="main">
             <header class="header">
-                <h1 class="logo">B litz</h1>
-                <nav class="menu">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <span>Homepage</span>
+                <a href="#" class="logo">Blitz</a>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__link">
+                                <span class="menu__item__link__title">Homepage</span>
                                 Home
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <span>Who are we?</span>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__link">
+                                <span class="menu__item__link__title">Who are we?</span>
                                 About
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <span>My Portfolio</span>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__link">
+                                <span class="menu__item__link__title">My Portfolio</span>
                                 Projects
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <span>latest news</span>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__link">
+                                <span class="menu__item__link__title">Latest News</span>
                                 Blog
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <span>Get in touch</span>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item__link">
+                                <span class="menu__item__link__title">Get in Touch</span>
                                 Contact
                             </a>
                         </li>
                     </ul>
                 </nav>
-            </header>
-            <figure class="banner">
-                <img class="banner__img" src="img/banner.png" alt="Banner">
-                <figcaption class="banner__subtitle">
-                    <span class="banner__subtitle__text1">This Months</span>
-                    <span class="banner__subtitle__text2">Featured Works</span>
-                </figcaption>
-                <ul class="banner__navigation">
-                    <li><a href="#"><span>1</span></a></li>
-                    <li><a href="#"><span>2</span></a></li>
-                    <li><a href="#"><span>3</span></a></li>
-                    <li><a href="#"><span>4</span></a></li>
-                </ul>
-            </figure>
-            <section class="banner__footer">
-                <h2 class="banner__footer__title">
-                    JESUS TYPOGRAPHY WALLPAPER
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus non diam et lacus pulvinar venenatis et vestibulum
-                    velit. Pellentesque interdum faucibus dui hendrerit ultrices.
-                    Aliquam erat volutpat. Duis commodo turpis id diam pulvinar
-                    hendrerit.
-                </p>
-            </section>
-            <section class="features">
-                <article class="features__item">
-                    <h2 class="features__item__title"><i class="feature__icon fa-solid fa-magnifying-glass"></i> Checkout our latest projects</h2>
-                    <p>
-                        Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus.
-                        Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.
-                        Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.
-                        Aenean sodales nibh non lectus tempor a interdum justo ultricies.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-angles-right"></i> Find out more</a>
-                </article>
-                <article class="features__item">
-                    <h2 class="features__item__title"><i class="feature__icon fa-solid fa-star"></i> Guarantee  5  STar Quality Work</h2>
-                    <p>
-                        Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus.
-                        Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.
-                        Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.
-                        Aenean sodales nibh non lectus tempor a interdum justo ultricies.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-angles-right"></i> Find out more</a>
-                </article>
-                <article class="features__item">
-                    <h2 class="features__item__title"><i class="feature__icon fa-solid fa-message"></i>Stay connected  by reading  the  blog</h2>
-                    <p>
-                        Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus.
-                        Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.
-                        Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.
-                        Aenean sodales nibh non lectus tempor a interdum justo ultricies.
-                    </p>
-                    <a href="#"><i class="fa-solid fa-angles-right"></i> Find out more</a>
-                </article>
-            </div>
 
-            <section class="latest-work">
-                <h2 class="latest-work__title">My latest work</h2>
+            </header>
+
+            <section>
+                <div class="banner">
+                    <img src="img/banner.png" alt="Banner">
+    
+                    <div class="banner__title__container">
+                        <h2 class="banner__title">
+                            <span class="banner__title__subtitle">This month</span>
+                            Featured Work
+                        </h2>
+                    </div>
+                </div>
+                
             </section>
-        </div>
-        <div style="height: 400px;"></div>
+            
+        </main>
     </body>
 </html>

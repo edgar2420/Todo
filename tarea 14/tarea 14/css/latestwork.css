@@ -1,0 +1,42 @@
+#latest-work {
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-work-item {
+    width: 220px;
+}
+
+.latest-work-item img {
+    border: 2px solid #F0F0F0;
+}
+
+.latest-work-title {
+    font-family: 'Bebas', sans-serif;
+    color: #474747;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-bottom: 18px;
+    margin-top: 17px;
+}
+
+.latest-work-item p {
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size: 12px;
+    margin-right: 3px;
+    color: #414141;
+    line-height: 18px;
+}
+
+.latest-work-link {
+    color: #474747;
+    text-decoration: none;
+    font-family: 'Bebas', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.latest-work-link-icon {
+    margin-right: 10px;
+}

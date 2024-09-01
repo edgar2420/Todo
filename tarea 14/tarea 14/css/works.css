@@ -1,0 +1,20 @@
+#works {
+    margin-top: 60px;
+    margin-bottom: 52px;
+}
+
+.works-title-container {
+    background-image: url(img/title-bg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+.works-title {
+    font-family: 'Bebas', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+    background-image: url('img/bg.png');
+    padding: 0px 29px;
+    color: #474747;
+}

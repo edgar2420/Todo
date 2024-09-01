@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "tofino-regular";
+    src: url(fonts/tofino_regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: "tofino-medium";
+    src: url(fonts/tofino_medium-webfont.ttf);
+}
+
+@font-face {
+    font-family: "tofino-bold";
+    src: url(fonts/tofino_bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: "charter-regular";
+    src: url(fonts/charter_regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: "charter-italic";
+    src: url(fonts/charter_italic-webfont.ttf);
+}
+
+@font-face {
+    font-family: "charter-bold";
+    src: url(fonts/charter_bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: "charter-boldItalic";
+    src: url(fonts/charter_bold_italic-webfont.ttf);
+}
+
+

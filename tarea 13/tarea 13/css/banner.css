@@ -1,0 +1,56 @@
+.banner{
+    margin-top: 50px;
+    position: relative;
+}
+
+.banner__title__container{
+    background-color: #404040;
+    display: inline-block;
+    padding: 14px 18px 12px;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+.banner__title{
+    margin: 0px;
+    color: white;
+    font-family: Bebas, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+
+.banner__title__subtitle{
+    color: #9a9a9a;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+}
+.banner-navigation {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    left: 800px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-navigation li {
+    margin-left: 7px;
+}
+
+.banner-navigation a {
+    display: inline-block;
+    height: 5px;
+    width: 23px;
+    background-color: white;
+}
+
+.banner-navigation li:first-child a {
+    background-color: #444444;
+}
+
+.banner-navigation span {
+    display: none;
+}
