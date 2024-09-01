@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.redimension {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  border-top: 3px solid rgb(35, 245, 7);
+  border-bottom: 2px solid rgb(35, 245, 7);
+}
+
+em {
+  color: gray;
+}
+ul{
+  list-style-type: none;
+}
+ ul li::before {
+  content: "\25AA";
+  color: green;
+  display: inline-block;
+  width: 1em;
+  margin-left: -0.9em;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
