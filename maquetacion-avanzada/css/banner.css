@@ -1,0 +1,79 @@
+.banner{
+    margin: 50px 0px 0px;
+    position: relative;
+    font-family: 'Bebas', sans-serif;
+}
+
+    .banner__img{
+        width: 100%;
+    }
+
+    .banner__subtitle{
+        background-color: #404040;
+        font-size: 28px;
+        color: #ffffff;
+        padding: 14px 17px 12px;
+        position: absolute;
+        bottom: 5px;
+    }
+
+        .banner__subtitle__text1{
+            font-size: 14px;
+            color: #9a9a9a;
+            display: block;
+        }
+
+        .banner__navigation{
+            position: absolute;
+            right: 15px;
+            bottom: 12px;
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+        }
+    .banner__navigation li{
+        display: inline-block;
+        margin-right: 5px;
+    }
+    
+    .banner__navigation li:first-child{
+        margin-left: 0px;
+    }
+    .banner__navigation a{
+        display: block;
+        width: 23px;
+        height: 5px;
+        background-color: #ffffff;
+        text-decoration: none;
+    }
+    .banner__navigation li:first-child a, .banner__navigation a:hover{
+        background-color: #404040;
+    }
+
+    .banner__navigation a.active{
+        background-color: #ffffff;
+    }
+
+    .banner__navigation a span{
+        display: none;
+    }
+
+.banner__footer{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px 16px;
+    margin-top: -5px;
+} 
+
+
+    .banner__footer__title{
+        font-size: 16px;
+        font-family: 'Bebas', sans-serif;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .banner__footer__title + p{
+        margin: 0px;
+        font-family: 'HelveticaNeue', sans-serif;
+        font-size: 12px;
+    }

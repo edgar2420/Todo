@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('img/bg.png');
+    background-repeat: repeat;
+    color: #474747;
+    border-top: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.latest-work {
+    display: none;
+}

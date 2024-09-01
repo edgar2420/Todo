@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 4fr;
+    gap: 20px;
+}
+
+.logo{
+    height: 1px;
+    width: 1183px;
+    background-color: #c0c0c0;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+.Navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #c0c0c0;
+    height: 40px;
+    width: 1183px;
+}
+.numeros, .cajita, .cfooter {
+    min-height: 50px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-color: #c0c0c0;
+}
+.numeros {
+    height: 200px;
+    width: 250px;
+}
+
+.bodi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.cajita {
+    height: 250px;
+    width: 355px;
+}
+.footer{
+    height: 50px;
+    width: 1183px;
+}

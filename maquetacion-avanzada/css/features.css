@@ -1,0 +1,49 @@
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+    .features__item{
+        width: 300px;
+    }
+        .features__item__title{
+            font-family: 'Bebas', sans-serif;
+            font-size: 28px;
+            color: #464646;
+            overflow: hidden;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+
+        .feature__icon{
+            float: left;
+            color: #9A9A9A;
+            font-size: 45px;
+            margin-right: 35px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        
+        .features__item__title + p{
+            font-size: 12px;
+            font-family: 'HelveticaNeue', sans-serif;
+            color: #414141;
+            margin-top: 0px;
+            margin-bottom: 25px;
+        }
+
+        .features__item a{
+            font-family: 'Bebas', sans-serif;
+            font-size: 12px;
+            color: #414141;
+            display: block;
+            font-weight: bold;
+        }
+
+        .features__item a i{
+            display: inline-block;
+            margin-right: 10px;
+        }

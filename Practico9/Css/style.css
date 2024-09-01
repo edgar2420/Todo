@@ -1,0 +1,50 @@
+table {
+    font-family: "tofino-regular";
+    font-size: 10px;
+    border-collapse: collapse;
+}
+
+tr, td {
+    border-top: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
+    padding: 20px 20px;
+}
+
+h1 {
+    font-family: "tofino-regular";
+    font-size: 24px;
+    font-weight: 200;
+    width: auto;
+    margin-right: 30%;
+    margin-left: 30%;
+    
+}
+
+h2 {
+    font-family: "tofino-regular";
+}
+
+.auto {
+    width: auto;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    
+}
+
+p {
+    font-family: "charter-regular";
+}
+
+#negrita {
+    font-family: "charter-bold";
+}
+
+#verde {
+    color: green;
+    text-decoration: underline green;
+}
