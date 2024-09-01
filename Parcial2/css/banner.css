@@ -1,0 +1,88 @@
+.banner{
+    margin: 28px 0px 0px;
+    position: relative;
+}
+
+.banner_img{
+    width: 100%;
+    height: 842px;
+}
+
+.banner__subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding-left: 160px;
+    padding-bottom: 254px;
+    font-size: 24px;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+}
+
+.banner__subtitle__text1{
+    font-size: 52px;
+    color: white;
+    display: block;
+    
+}
+
+input[type='text']{
+    text-align: center;
+    width: 424px;
+    height: 54px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid gray;
+    color: #E2E3E5;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.button_free{
+    background-color: #FFCE54;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 57px;
+    height: 27px;
+    text-align: center;
+}
+
+.button_sign{
+    background-color: #77C344;
+    color: white;
+    width: 113px;
+    height: 54px;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner__footer {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 156px;
+    padding-left: 170px;
+    padding-right: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1 {
+    height: 48px;
+}
+.img2{
+    height: 34px;
+}
+.img3{
+    height: 49px;
+}
+.img4{
+    height: 27px;
+}
+.img5{
+    height: 36px;
+}

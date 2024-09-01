@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 33px;
+    margin-left: 130px;
+    width: 202px;
+    height: 31px;
+}
+
+.menu{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    margin: 36px 0px 0px;
+    color: #868B94;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+.menu li:first-child{
+    margin-left: 0px;
+}
+
+.menu li:last-child{
+    margin-right: 110px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #474747;
+}

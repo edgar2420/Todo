@@ -1,0 +1,45 @@
+#time{
+    margin-top: 145px;
+    text-align: center;
+}
+
+#time h2{
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    color: #5D6471;
+}
+
+#email{
+    text-align: center;
+    margin-top: 48px;
+}
+
+#email h3{
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    color: #91959C;
+}
+
+#email input[type='text']{
+    text-align: center;
+    width: 632px;
+    height: 70px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid gray;
+    color: #E2E3E5;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.button_sign_2{
+    background-color: #77C344;
+    color: white;
+    width: 190px;
+    height: 68px;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+}
